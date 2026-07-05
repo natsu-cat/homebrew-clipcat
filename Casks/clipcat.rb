@@ -7,7 +7,7 @@ cask "clipcat" do
   desc "Clipboard history manager for macOS"
   homepage "https://github.com/natsu-cat/clipcat"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "ClipCat.app"
 
